@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Catalogo1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Catálogo 1"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/txtIdCatalogo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Id"
+            android:textSize="14dp"/>
+        <EditText
+            android:id="@+id/txtTipoCatalogo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo"
+            android:textSize="14dp"/>
+        <EditText
+            android:id="@+id/txtPrecioCatalogo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio"
+            android:textSize="14dp"/>
+        <Button
+            android:id="@+id/btnInsertarCatalogo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insertar"/>
+
+        <Button
+            android:id="@+id/btnActualizarCatalogo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"/>
+
+        <Button
+            android:id="@+id/btnBorrarCatalogo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Borrar"/>
+        <Button
+            android:id="@+id/btnBuscarCatalogo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
